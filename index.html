@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend praksa </title>
+    <link href="./index.css" rel="stylesheet" />
+    <script src="./app.js"></script>
+
+</head>
+
+<body background="./Image/t.jpg" style="background-size:contain; ">
+
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="http://127.0.0.1:5500/index.html">Home </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+
+        <div class="rightNav">
+
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search for books...">
+                <select id="searchSelect">
+                    <option value="title">Title </option>
+                    <option value="author">Author</option>
+                    <option value="genre">Genre</option>
+                </select>
+                <button type="button" id="searchButton">Search</button>
+            </form>
+        </div>
+    </nav>
+    <script src="listOfBooks.json"></script>
+
+
+
+    <h1>Book List</h1>
+    <ul id="book-list"></ul>
+    <div id="bookList"></div>
+    </div>
+
+</body>
+
+</html>
